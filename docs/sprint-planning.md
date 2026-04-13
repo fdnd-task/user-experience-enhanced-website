@@ -34,7 +34,7 @@ Als je dat nog niet hebt en je hebt hier nog geen issues voor, maak dan een nieu
 Als je dit allemaal al is gelukt, maak dan een sub-issue aan voor een user test om jouw interactie te testen met een gebruiker. Zet de bron voor de user test uitleg uit [sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/code-design-review-user-testing.md) er alvast bij.
 
 ### Sprint review verwerken
-Verwerk de feedback van de Sprint Review van sprint 9, maak issues van de taken waar je mee aan de slag wil deze sprint.
+Verwerk de feedback van de Sprint Review van sprint 9, maak issues van de componenten waar je mee aan de slag wil deze sprint.
 
 
 ## Description schrijven
