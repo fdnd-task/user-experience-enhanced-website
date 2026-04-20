@@ -20,9 +20,9 @@ Layout Shifts worden vaak veroorzaakt door video's of afbeeldingen zonder bekend
 Dit zorgt voor een betere user experience en performance zie [#60 Do you prevent layout shifts and repaints](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#60) van de Frontend Performance Checklist.
 
 
-#### Opdracht: Layout-shift nabootsen
+#### 👉 Opdracht: Layout-shift nabootsen
 
-🛠️ Maak een kleine `layout-shift` demo in je Learning Journal, waarin je bovenstaand probleem nabootst. We doen het hier bewust “verkeerd”, om te oefenen, en om dit patroon te leren herkennen.
+Maak een kleine `layout-shift` demo in je Learning Journal, waarin je bovenstaand probleem nabootst. We doen het hier bewust “verkeerd”, om te oefenen, en om dit patroon te leren herkennen.
 
 💡 Tip: gebruik bijvoorbeeld `<img src="https://picsum.photos/4000">` als je een grote afbeelding wilt laden, of het driestappenplan in client-side JavaScript voor een micro-interactie.
 
@@ -61,7 +61,7 @@ Je kunt in Lighthouse filteren op specifieke Web Vitals, wat voor deze opdracht 
 - [Web Vitals](https://web.dev/articles/vitals)
 
 
-### 🛠️ Opdracht: Layout Shifts door afbeeldingen
+### 👉 Opdracht: Layout Shifts door afbeeldingen
 Doe een Lighthouse Performance test (Mobile) op je eigen project. Liefst op een pagina waar veel afbeeldingen op staan, zodat we wat problemen vinden die we kunnen gaan oplossen. _Throttle_ eventueel je netwerkverbinding (zeker als je op `localhost` test, want dan heb je geen vertraging door het netwerk). Maak een issue aan als je CLS problemen vindt. Analyseer de bevindingen van Lighthouse en voeg screenshots en mogelijke oplossingen of bronnen toe aan je analyse. Geef ook aan op welke pagina of pagina's de problemen plaatsvinden, zodat je weet om welke views het gaan. Performance problemen gaan bijna altijd over problemen in je HTML, en die zul je daar ook op moeten lossen.
 
 💡 Tip: Zijn er verschillende oorzaken voor CLS? Maak dan per oorzaak een sub-issue aan.
