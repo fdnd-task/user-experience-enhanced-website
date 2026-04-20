@@ -20,11 +20,14 @@ Layout Shifts worden vaak veroorzaakt door video's of afbeeldingen zonder bekend
 Dit zorgt voor een betere user experience en performance zie [#60 Do you prevent layout shifts and repaints](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#60) van de Frontend Performance Checklist.
 
 
+<!--
 #### 👉 Opdracht: Layout-shift nabootsen
 
 Maak een kleine `layout-shift` demo in je Learning Journal, waarin je bovenstaand probleem nabootst. We doen het hier bewust “verkeerd”, om te oefenen, en om dit patroon te leren herkennen.
 
 💡 Tip: gebruik bijvoorbeeld `<img src="https://picsum.photos/4000">` als je een grote afbeelding wilt laden, of het driestappenplan in client-side JavaScript voor een micro-interactie.
+-->
+
 
 #### Bronnen
 
