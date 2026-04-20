@@ -4,16 +4,6 @@
 
 Over het toepassen van client-side scripting om de User Experience te verbeteren.
 
-<!--
-Over UX, waarom zou je client side scripten? Alles doet het toch al server-side? Voor de UX!! 
-Zoek maar states die je niet met server-side technieken kan tonen? Loading !
-
-Over Posten als client-side enhancement
-- Javascript; 3 stappenplkan voor POST en GET van content 
-- Viewtransitions 
-
--->
-
 ### UX
 
 User Experience (UX) is hoe de gebruiker jouw website ervaart, oftewel de gebruikerservaring. Voor een goede gebruikerservaring moet je ervoor zorgen dat een website technisch goed is gebouwd, én een duidelijke en prettige User interface heeft. Zowel de techniek als het design draagt bij aan een goede UX.
@@ -23,7 +13,7 @@ Verschillende principes zijn belangrijk voor een goede UX, zoals Toegankelijkhei
 
 ### Aanpak
 Vandaag ga je eerst bedenken en schetsen hoe je de interactie kan verbeteren met een Loading state en Success state van de UI stack.
-Daarna ga je leren hoe je met client-side JavaScript de interface kan enhancen, om de gebruiker goede feedback te geven.
+Daarna ga je leren hoe je met client-side JS de interface kan enhancen, om de gebruiker goede feedback te geven.
 
 
 ## Enhancement
@@ -33,14 +23,14 @@ _Daarna_ kan je de interface verbeteren—“enhancen”—met client-side JavaS
 
 ### Loading state en Success state
 
-Met behulp van de UI-Stack kan je verschillende states van een pagina ontwerpen als je met dynamische data werkt. De _Empty state_ heb je al, die kan je tonen als er bijvoorbeeld nog geen Berichten zijn toegevoegd. Of als er nog geen Like is gegeven. Of als je een product nog niet tot Favoriet hebt gemaakt. De _Ideal state_ heb je ook; een gevuld hartje, een lijstje met reacties, of een gevuld winkelmandje.
-
+Met behulp van de UI-Stack kan je verschillende states van een pagina ontwerpen als je met dynamische data werkt. De _Empty state_ heb je al, die kan je tonen als er bijvoorbeeld nog geen Berichten zijn toegevoegd. Of als er nog geen Like is gegeven. Of als je een product nog niet tot Favoriet hebt gemaakt. De _Ideal state_ heb je ook; een gevuld hartje, een lijstje met reacties, of een gevuld winkelmandje. 
 <!--Een _Loading state_ en _Success state_ komen er in deze stap bij. Of eigenlijk: we gaan de default states die de browser hiervoor biedt _enhancen_.-->
+
 Standaard laat een browser een _loading_ indicator zien terwijl een pagina laadt (vaak in of naast de adresbalk). En als de pagina geladen is, wordt de hele pagina getoond: de _Success state_ (vaak uitgebreid met een extra melding op de pagina). Dat werkt prima, browsers doen dit al jaren, en bezoekers zijn dit gewend.
 
 Maar de volledige pagina verversen als we alleen één Like veranderen, of één reactie toevoegen, of één product aan een winkelmandje toevoegen, dat is wat overdreven. Het werkt overal, maar in veel browsers kunnen we dit prettiger maken voor onze eindgebruikers. 
 
-We kunnen de standaard formulier _submit_ van de browser tegenhouden, de formuliervelden uit het formulier met client-side JavaScript versturen, en met het antwoord van de server _iets doen_. Hoe precies gaan we verderop in deze workshop leren, maar we moeten ons eerst bewust worden van de extra verantwoordelijkheid die we hiermee krijgen. Als we de _default_ Loading en Success states van de browser niet gebruiken, moeten we hiervoor een alternatief ontwerpen _en_ bouwen.
+We kunnen de standaard formulier _submit_ van de browser tegenhouden, de formuliervelden uit het formulier met client-side JS versturen, en met het antwoord van de server _iets doen_. Hoe precies gaan we verderop in deze workshop leren, maar we moeten ons eerst bewust worden van de extra verantwoordelijkheid die we hiermee krijgen. Als we de _default_ Loading en Success states van de browser niet gebruiken, moeten we hiervoor een alternatief ontwerpen _en_ bouwen.
 
 Op het moment dat een gebruiker op een knop klikt en er data naar de server wordt verstuurd, kun je een _Loading state_ tonen. Door het tonen van een loading state weet de gebruiker dat er iets gebeurt:
 
@@ -56,14 +46,14 @@ Zoek met je tafel verschillende voorbeelden van loading states en success states
 
 Post in Teams mooie voorbeelden van Loading states en Success states.
 
-Bedenk ook hoe je het ontwerp van jouw interactie kunt uitbreiden met deze twee nieuwe states. Voeg hints en relevante bronnen toe aan jouw User Story issue.
-
 #### 👉 Jouw ontwerp uitbreiden met states
 
 <!--Schets de Wireflow van jouw interactie, als je dat nog niet gedaan hebt in [de eerste week](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/user-generated-content.md#wireflow-breakdown-met-urls-routes-en-post). Toon eerst de *Ideal state*, de flow dat alles goed gaat, en de *e*mpty state*, voor als er nog niets is. -->
 
-Voeg een *Loading state* en *Success state* toe aan je wireflow in Figma. Ontwerp hoe je de gebruiker goede feedback kan geven als er data wordt verstuurd en geladen, en wat je kan tonen als dit gelukt is. Bijvoorbeeld met een animatie op de Like, of een highlight op een nieuw bericht, zorg ervoor dat de gebruiker weet dat de interactie is gelukt.
-<!--Gebruik hiervoor [de states van de UI-Stack](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md): Empty state, Loading state en Success state.--> Voeg deze nieuwe states toe aan het issue waarin je aan het werk bent.
+Bedenk hoe je het ontwerp van jouw interactie kunt uitbreiden met deze twee nieuwe states.  Voeg een *Loading state* en *Success state* toe aan je wireflow in Figma. Ontwerp hoe je de gebruiker goede feedback kan geven als er data wordt verstuurd en geladen, en wat je kan tonen als dit gelukt is. Bijvoorbeeld met een animatie op de Like, of een highlight op een nieuw bericht, zorg ervoor dat de gebruiker weet dat de interactie is gelukt.
+<!--Gebruik hiervoor [de states van de UI-Stack](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md): Empty state, Loading state en Success state.--> 
+
+Voeg deze nieuwe states toe aan het issue waarin je aan het werk bent.
 
 ## Server-side vs. Client-side
 
@@ -73,11 +63,9 @@ In Semester 2 leer je over zowel de server (NodeJS/Express) als de client (de br
 
 ### Client-side Fetch
 
-Server-side heb je in NodeJS al gewerkt met `fetch()`, om data op te halen uit en op te slaan in Directus. Via `fetch()` kun je HTTP requests uitvoeren: `GET`, `POST`, `DELETE`, etc. Fetch is een _standaard_.
+Server-side heb je in NodeJS al gewerkt met `fetch()`, om data op te halen uit en op te slaan in Directus. Via `fetch()` kun je HTTP requests uitvoeren: `GET`, `POST`, `DELETE`, etc. Fetch is een _standaard_. Client-side heb je in de meeste browsers met JavaScript ook beschikking over `fetch()`. Alles wat je hierover geleerd hebt de afgelopen weken, werkt dus ook in veel browsers.
 
-Client-side heb je in de meeste browsers met JavaScript ook beschikking over `fetch()`. Alles wat je hierover geleerd hebt de afgelopen weken, werkt dus ook in veel browsers.
-
-Weet je wat dit betekent? De JavaScript code die je in NodeJS hebt geschreven, kun je vrijwel één-op-één in browsers gebruiken. 🤯 Probeer deze code maar eens in je browser Console:
+Weet je wat dit betekent? De JS code die je in NodeJS hebt geschreven, kun je vrijwel één-op-één in browsers gebruiken. 🤯 Probeer deze code maar eens in je browser Console:
 
 ```javascript
 const teamResponse = await fetch('https://fdnd.directus.app/items/person/?fields=team&filter[team][_neq]=null&sort=team&groupBy=team')
@@ -89,18 +77,15 @@ console.log(teamResponseJSON)
 
 Vet hè?
 
-We kunnen een `fetch()` in onze client-side JavaScript gebruiken om een `POST` te doen naar onze eigen Express server. Naar de routes die je al aangemaakt hebt voor het srver-side verwerken van de `POST`. 
-
+We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen naar onze eigen Express server. Naar de routes die je al aangemaakt hebt voor het server-side verwerken van de `POST`. 
 
 💡 Je kunt niet zomaar naar elke andere website een `fetch()` doen vanuit JavaScript in een browser. Daarvoor is dit te krachtig. Standaard werkt dit alleen voor URLs van hetzelfde _origin_ (domein). Als websites dit wel toe willen staan, moeten ze dit expliciet aangeven, via zogenaamde _Cross-Origin Resource Sharing (CORS) headers_. Directus laat dit bijvoorbeeld wel toe, waardoor bovenstaand voorbeeld werkt.
 
 ### Client-side Fetch ontwerpen
 
-👉 Onderzoek onderstaand voorbeeld, lees de code comments, en gebruik dit om een breakdown van jouw interactie te maken. Voeg pseudo-code aan jouw wireflow in Figma toe. Bespreek daarna jouw ontwerp met een andere student. Het schetsen en uitleggen gaat je helpen om de code goed te begrijpen. 
+👉 Onderzoek onderstaand code voorbeeld, lees de code comments en gebruik dit om een breakdown van jouw interactie te maken. Voeg pseudo-code aan jouw wireflow in Figma toe. Bespreek daarna jouw ontwerp met een andere student. Het schetsen en uitleggen gaat je helpen om de code beter te begrijpen. <!-- 2.4.2 Schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen. -->
 
-<!-- 2.4.2 Schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen. -->
-
-👉 Heb je je ontwerp en code uitgelegd? En heb je anderen al geholpen met hun ontwerp? Pas de code aan naar jouw eigen project. Zorg dat je met client-side JavaScript jouw formulier kunt versturen.
+👉 Heb je je ontwerp en code uitgelegd? En heb je anderen al geholpen met hun ontwerp? Pas de code aan naar jouw eigen project. Zorg dat je met client-side JS jouw formulier kunt versturen.
 
 
 ```html
@@ -181,19 +166,20 @@ We kunnen een `fetch()` in onze client-side JavaScript gebruiken om een `POST` t
     })
 
     // Data verwerken:
-    // De server geeft data terug als het posten goed gaat
+    // Jouw server.js geeft data terug als het posten goed gaat
     const responseData = await response.text()
 
-    // Normaal zou de browser die HTML parsen en weergeven, maar daar moeten we nu zelf iets mee
-    // Parse de nieuwe HTML en maak hiervan een nieuw Document Object Model in het geheugen
+    // Normaal zou de browser die HTML parsen en weergeven.
+    // Maar omdat we dit nu in client-side JS doen moeten we dit zelf doen:
+    // Parse de nieuwe HTML en maak onderwater een nieuw Document Object Model aan
     const parser = new DOMParser()
     const responseDOM = parser.parseFromString(responseData, 'text/html')
 
-    // Zoek in die nieuwe HTML DOM onze nieuwe UI state op, die we via Liquid hebben klaargemaakt
+    // Zoek in de onderwater DOM de nieuwe state op
     const newState = responseDOM.querySelector('#score ol')
 
-    // data van de server toevoegen aan de DOM, aan de scorelijst in de ol
     // Overschrijf de HTML met de nieuwe HTML
+    // We gaan de nieuwe state toevoegen aan de DOM, aan de scorelijst in de ol
     scores.innerHTML = newState.innerHTML
 
     // Loading state weghalen
@@ -210,7 +196,7 @@ We kunnen een `fetch()` in onze client-side JavaScript gebruiken om een `POST` t
 
 
 <details>
-    <summary>Voorbeeld code meerdere Like buttons op een pagina</summary>
+    <summary>Voorbeeld code voor meerdere Like buttons op een pagina</summary>
 
 ```html
 
@@ -269,11 +255,11 @@ We kunnen een `fetch()` in onze client-side JavaScript gebruiken om een `POST` t
     const responseText = await response.text()
 
     // Normaal zou de browser die HTML parsen en weergeven, maar daar moeten we nu zelf iets mee
-    // Parse de nieuwe HTML en maak hiervan een nieuw Document Object Model in het geheugen
+    // Parse de nieuwe HTML en maak onderwater een nieuw Document Object Model aan
     const parser = new DOMParser()
     const responseDOM = parser.parseFromString(responseText, 'text/html')
 
-    // Zoek in die nieuwe HTML DOM onze nieuwe UI state op, die we via Liquid hebben klaargemaakt
+    // Zoek in de onderwater DOM de nieuwe UI state op
     // We gebruiken hiervoor het eerdere data-enhanced attribuut, zodat we weten waar we naar moeten zoeken
     // In de nieuwe HTML zoeken we bijvoorbeeld naar data-enhanced="true" of data-enhanced="formulier-3"
     // (Hierdoor kunnen we ook meerdere formulieren op dezelfde pagina gebruiken)
@@ -286,6 +272,7 @@ We kunnen een `fetch()` in onze client-side JavaScript gebruiken om een `POST` t
   })
 
 </script>
+
 ```
 
 </details> 
