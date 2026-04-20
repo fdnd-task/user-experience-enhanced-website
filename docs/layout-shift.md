@@ -104,7 +104,7 @@ Gebruik het voorbeeld en de bronnen hieronder om je CLS issues rondom je dynamis
 
 💡 Vergeet ook niet dat je met `console.log()` in NodeJS en het `json` Liquid filter kunt zien wat er in een object zit.
 
-Volgende week gaan we verder met wat meer geavanceerde onderwerpen.
+<!-- Volgende week gaan we verder met wat meer geavanceerde onderwerpen.-->
 
 #### Bronnen
 
