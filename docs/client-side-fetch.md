@@ -37,6 +37,7 @@ Met een Control Flow beschrijf je de logica / structuur van je code. De Control 
 
 ‼️ Dit betekent dat je jouw interactie eerst met een HTML formulier, POST en Server-side betrouwbaar moet bouwen, zodat je website het altijd doet. Hiervoor heb je de _Empty state_ en _Ideal state_ nodig in je Liquid code. Heb je dat nog niet, zorg dan eerst dat je dat werkend hebt, voordat je verder gaat met client-side enhancements. Gebruik hiervoor de [UI states workshop](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/ui-states.md) uit de eerste week van deze sprint.
 
+
 _Daarna_ kan je de interface verbeteren—“enhancen”—met client-side JavaScript. Stel dat een (oude) browser zonder dat je het weet bepaalde CSS of JavaScript die je gebruikt niet ondersteunt, dan zal deze 'terugvallen' naar een werkende versie, waardoor de core functionaliteit (jouw interactie) altijd werkt, voor iedereen.
 
 ### Loading state en Success state
