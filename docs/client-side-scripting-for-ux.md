@@ -134,7 +134,7 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
 
 <!-- Client-Side script voor enhancement -->
 <!-- type="module" is een feature detection
-      browsers die dat ondersteuenen, ondersteunen ook fetch (en andere js methoden) 
+      browsers die dat ondersteunen, ondersteunen ook fetch (en andere js methoden) 
       https://snugug.com/musings/modern-cutting-the-mustard/
 -->
 <script type="module"> 
