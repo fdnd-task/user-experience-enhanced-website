@@ -127,8 +127,9 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
     </ol>
 
 </section>
+```
 
-
+```js
 <!-- Client-Side script voor enhancement -->
 <!-- type="module" is een feature detection
       browsers die dat ondersteunen, ondersteunen ook fetch (en andere js methoden) 
