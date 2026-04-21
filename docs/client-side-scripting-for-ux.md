@@ -95,16 +95,16 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
     <fieldset>
         <legend>Team A</legend>
         <label>
-        <span>Punten:</span>
-        <input type="number" name="score_team_1" placeholder="score" value="{{ scores[0].score_team_1 }}">
+            <span>Punten:</span>
+            <input type="number" name="score_team_1" placeholder="score" value="{{ scores[0].score_team_1 }}">
         </label>
     </fieldset>
 
     <fieldset>
         <legend>Team B</legend>
         <label>
-        <span>Punten:</span>
-        <input type="number" name="score_team_2" placeholder="score" value="{{ scores[0].score_team_2 }}">
+            <span>Punten:</span>
+            <input type="number" name="score_team_2" placeholder="score" value="{{ scores[0].score_team_2 }}">
         </label>
     </fieldset>
 
@@ -117,16 +117,13 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
     <h2>Scoreverloop</h2>
 
     <ol>
-
     {% for score in scores %}        
         <li>
             Team A: {{ score.score_team_1 }}        
             <br>Team B: {{ score.score_team_2 }}        
             <br>date: {{ score.date_created | date: '%d-%m-%Y %H:%M' }}
         </li>
-
     {% endfor %}
-
     </ol>
 
 </section>
