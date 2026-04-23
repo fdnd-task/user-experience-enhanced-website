@@ -28,7 +28,7 @@ Let op. Hier moet wel een kanttekening geplaatst worden. Het is namelijk niet al
 *3 variaties van het laden van een website vergeleken*
 
 ### Cheat the UX
-Stéphanie Walter vertelt in haar lezing “Cheating The UX When There Is Nothing More To Optimize” dat je in de interface verschillende dingen kan doen die ervoor zorgen dat een gebruiker het gevoel heeft dat de website snel laadt en soepel werkt. Zoals loaders en _progress bars_, _micro-interactions_, _optimistic UI_, _User distractions_ en _progressive asset display_.
+Stéphanie Walter vertelt in haar lezing [Cheating The UX When There Is Nothing More To Optimize](https://stephaniewalter.design/blog/cheating-ux-perceived-performance-and-user-experience/) dat je in de interface verschillende dingen kan doen die ervoor zorgen dat een gebruiker het gevoel heeft dat de website snel laadt en soepel werkt. Zoals loaders en _progress bars_, _micro-interactions_, _optimistic UI_, _User distractions_ en _progressive asset display_.
 
 #### Visual Time Response voor Interfaces
 De _visual time response_ is de tijd die voorbij gaat voordat er iets gebeurt. We onderscheiden 'instant response', 'normal delay', 'system is thinking' en 'do something extra' voor als het (te) lang duurt.
@@ -59,7 +59,7 @@ Als je een progress bar naar het einde toe laat versnellen, zal de gebruiker het
 ## Opdracht Perceived Performance
 Pas Perceived Performance technieken toe op de client-side code van je POST interactie.
 
-Lees eerst het onderdeel “Have you optimized for perceived performance?” van de Frontend Performance Checklist. Maak aantekeningen in je issue.
+Lees eerst het onderdeel [Have you optimized for perceived performance?](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#59) #59 van de Frontend Performance Checklist. Maak aantekeningen in je issue.
 
 Ga daarna ontwerpen in Figma:
 - Pas de _Visual Time Response_ toe op de interacties en loading states die je hebt gemaakt in Sprint 9.
@@ -68,7 +68,4 @@ Ga daarna ontwerpen in Figma:
 - Maak een breakdown van de client-side JS en CSS die je nodig hebt. Kan je bedenken hoe je dit kan coderen?
 - Build, and have fun!
 
-### Bronnen
-- [Have you optimized for perceived performance?- Frontend Performance Checklist #59](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#59)
-- [Cheating The UX When There Is Nothing More To Optimize, Stéphanie Walter](https://stephaniewalter.design/blog/cheating-ux-perceived-performance-and-user-experience/)
-- [A Bone to Pick with Skeleton Screens](https://www.viget.com/articles/a-bone-to-pick-with-skeleton-screens/)
+
