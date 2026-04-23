@@ -83,7 +83,7 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
 
 ### Client-side enhancement ontwerpen
 
-Als je een interactie met client-side JS wil enhancen kan je dezelfde routing gebruiken als je server-side al hebt gebouwd. In plaats van dat een formulier via de server wordt uitgevoerd doe je dit in de browser, met client-side JS. 
+Als je een interactie met client-side JS wil enhancen kan je dezelfde routing gebruiken als je server-side al hebt gebouwd. In plaats van dat een formulier door het server.js wordt verwerkt doe je dit in de browser, met client-side JS. 
 
 In pseudo-code ziet dat er zo uit, hieronder staat een voorbeeld van een scoring website. De score wordt client-side gepost naar de server en daarna weer in de pagina getoond zonder reload. Aan de wireflow is pseudo-code toegevoegd met het stappenplan wat de client-side JS doet:
 
