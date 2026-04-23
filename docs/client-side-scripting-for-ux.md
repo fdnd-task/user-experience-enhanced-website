@@ -34,11 +34,11 @@ We kunnen de standaard formulier _submit_ van de browser tegenhouden, de formuli
 
 Op het moment dat een gebruiker op een knop klikt en er data naar de server wordt verstuurd, kun je een _Loading state_ tonen. Door het tonen van een loading state weet de gebruiker dat er iets gebeurt:
 
-![Loading state](loading-state.gif) 
+<img src="loading-state.gif" width="400">
 
 Als het versturen van de data gelukt is, en de browser heeft antwoord gekregen van de server, kun je feedback tonen met een _Success state_. Door het tonen van een success state weet een gebruiker dat het versturen van data is gelukt:
 
-![Success state](success-state.gif) 
+<img src="success-state.gif" width="400">
 
 #### 👉 Loading states en Success states onderzoeken
 
