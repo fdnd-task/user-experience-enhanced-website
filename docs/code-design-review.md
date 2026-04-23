@@ -6,9 +6,9 @@ Deze week zijn jullie aan de slag gegaan met verschillende performance technieke
 
 ### Aanpak  
 
-Vandaag werken we in groepjes aan een code review met peers die ongeveer even ver zijn als dat jij bent. Binnen je groepje bepaal je welke vragen jullie hebben en waar je graag feedback op zou willen ontvangen.  
+Naast het volgen van een practicum werk je zelfstandig aan de Code Review Performance. Je gaat feedback vragen aan mede studenten die ongeveer even ver zijn.  
 
-We gaan kijken hoe ver jullie zijn met de DoD's:
+Vandaag kijken we hoe ver je bent met de DoD's:
 - [ ]  Je hebt verschillende aangeboden standaarden op het gebied van frontend performance, zoals responsive images, layout shift en/of perceived performance gecombineerd
 - [ ]  Je hebt met client-side scripting de user experience van je website verbeterd volgens het principe van Progressive Enhancement
 
@@ -16,11 +16,11 @@ We gaan kijken hoe ver jullie zijn met de DoD's:
 
 ### Review voorbereiden
 
-Je hebt deze week meerdere performance technieken toegepast op de leertaak. Zoals het voorkomen layout shift, responsive images of een percieved performance. Daar ga je vandaag feedback op ~~krijgen~~vragen. 
+Je hebt deze week meerdere performance technieken toegepast op de leertaak. Zoals het voorkomen van een layout shift, het gebruik van responsive images of het toepassen van percieved performance. Daar ga je vandaag feedback op ~~krijgen~~ vragen. 
 
-Maak een issue voor de review en beschrijf de performance technieken die jij al hebt toegepast in de leertaak. Geef een uitleg hoe jij deze technieken hebt toegepast, voeg code snippets toe en link naar code. Zorg dat je website live staat anders kan je code niet getest worden.
+Maak een issue voor de review en beschrijf de performance technieken die jij hebt toegepast in de leertaak. Geef een uitleg hoe jij deze technieken hebt toegepast, voeg code snippets toe en link naar code. Zorg dat je website live staat anders kan je code niet getest worden.
 
-Tag vervolgens twee medestudenten _uit de andere squad_ in de issue van wie jij feedback wilt ontvangen. 
+Tag vervolgens twee medestudenten uit een andin de issue van wie jij feedback wilt ontvangen. 
 
 
 ### Review geven
@@ -36,6 +36,6 @@ Schrijf hoe de test is gegaan, geef feedback wat er goed gaat en geef tips als e
 
 ### Review bespreken
 
-Bespreek na de review de feedback met de studenten. Is de feedback die geschreven is duidelijk? Hoe hebben ze getest en wat voor dingen hebben ze in je code gezien?
+Bespreek na de review de feedback met elkaar. Is de feedback die geschreven is duidelijk? Hoe is er getest en wat voor punten zijn er gevonden?
 
 
