@@ -83,6 +83,14 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
 
 ### Client-side Fetch ontwerpen
 
+Als je een interactie met client-side JS wil enhancen kan je dezelfde routing gebruiken als je server-side al hebt gebouwd. In plaats van dat een formulier via de server wordt uitgevoerd doe je dit in de browser, met client-side JS. 
+
+In pseudo-code ziet dat er zo uit. Hieronder staat een voorbeeld van een scoring website. De score wordt client-side gepost naar de server en daarna in de pagina getoond. Aan de wireflow is pseudo-code toegevoegd met het stappenplan wat de client-side JS doet:
+
+<img src="control-flow-client-side-js-enhancement.webp">
+
+
+
 👉 Onderzoek onderstaand code voorbeeld, lees de code comments en gebruik dit om een breakdown van jouw interactie te maken. Voeg pseudo-code aan jouw wireflow in Figma toe. Bespreek daarna jouw ontwerp met een andere student. Het schetsen en uitleggen gaat je helpen om de code beter te begrijpen. <!-- 2.4.2 Schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen. -->
 
 👉 Heb je je ontwerp en code uitgelegd? En heb je anderen al geholpen met hun ontwerp? Pas de code aan naar jouw eigen project. Zorg dat je met client-side JS jouw formulier kunt versturen.
@@ -282,7 +290,7 @@ We kunnen een `fetch()` in onze client-side JS gebruiken om een `POST` te doen n
 <!-- - [Using data attributes @ MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Use_data_attributes) -->
 - [Retrieving a FormData object from an HTML form @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects#retrieving_a_formdata_object_from_an_html_form)
 <!-- - [Fetch Standard @ WHATWG](https://fetch.spec.whatwg.org/) -->
-- [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (geavanceerd)
+- [Cross-Origin Resource Sharing (CORS) @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) (💪)
 
 ### Extra states toevoegen
 
