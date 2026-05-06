@@ -7,7 +7,9 @@ In de wrap-up ga je de Sprint Review voorbereiden. Wat ga je aan de oprachtgever
 Vandaag ga je leren hoe je je code kan opschonen en beter leesbaar maken. Daarna ga je de sprint review voorbereiden en in groepjes met een docent je status doorspreken. 
 
 ## Code opschonen
-Nu we al een paar sprints met de server werken is het tijd om deze code eens op te schonen en beter leesbaar te maken. Een paar van onderstaande punten zijn waarschijnlijk al langs gekomen tijdens een practicum. Doorloop met je tafel jullie  server code een probeer deze punten te verbteren:
+Nu we al een paar sprints met de server werken is het tijd om deze code eens op te schonen en beter leesbaar te maken. Een paar van onderstaande punten zijn waarschijnlijk al langs gekomen tijdens een practicum. 
+
+Doorloop met je tafel jullie  server code een probeer deze punten te verbeteren:
 
 - Een baseURL aanmaken voor het deel van de fetch url naar Directus endpoint dat steeds hetzefde is (DRY)
 - Leesbaardere naamgeving
@@ -16,7 +18,7 @@ Nu we al een paar sprints met de server werken is het tijd om deze code eens op 
 - Code volgens vaste structuur schrijven (per scope/function) variabelen, code logic, function declarations
 - Een function één ding laten doen (Single Responsibility Principle)
 
-Advanced:
+💪 Advanced:
 - Een fetch helper function schrijven met error handling (DRY)
 - Routes opsplitsen in aparte bestanden om het server bestand lean and mean te houden (en wat meer richting componenten te denken)
 
