@@ -138,13 +138,14 @@ In pseudo-code ziet dat er zo uit, hieronder staat een voorbeeld van een scoring
 ```
 
 #### Client-side javascript:
-```javascript
-<!-- Client-side script voor enhancement -->
-<!-- type="module" is een feature detection
-      browsers die dat ondersteunen, ondersteunen ook fetch (en andere js methoden) 
-      https://snugug.com/musings/modern-cutting-the-mustard/
--->
-<script type="module"> 
+```html
+<script type="module">
+    /*
+        Client-side script voor enhancement
+        type="module" is een feature detection,
+        browsers die dat ondersteunen, ondersteunen ook fetch (en andere js methoden) 
+        https://snugug.com/musings/modern-cutting-the-mustard/
+    */
 
   const scoreForm = document.querySelector("form")
   const formButton = document.querySelector("form button")
