@@ -25,7 +25,7 @@ Nu we al een paar sprints met de server werken is het tijd om deze code eens op 
 ## Sprint review voorbereiden en Readme schrijven
 Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Review voorbereiden. Ga met elkaar aan tafel zitten. 
 
-- Laat eerst aan elkaar zien wat je hebt gemaakt deze sprint en aan welke vragen of feedback van de opdachtgever je hebt gewerkt. Bedenk daarna hoe jullie dit gaan presenteren, en bedenk een volgorde van onderwerpen.
+- Laat eerst aan elkaar zien wat je hebt gemaakt deze sprint en aan welke vragen of feedback van de opdrachtgever je hebt gewerkt. Bedenk daarna hoe jullie dit gaan presenteren, en bedenk een volgorde van onderwerpen.
 
 - Bespreek met elkaar wat je hebt gedaan op het gebied van frontend performance, zoals responsive images, layout shift en/of perceived performance. 
 
