@@ -26,17 +26,21 @@ Advanced:
 
 
 ## Sprint review voorbereiden en Readme schrijven
-Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Review voorbereiden. Ga met elkaar aan tafel zitten. Laat eerst aan elkaar zien wat je hebt gemaakt deze sprint en aan welke vragen of feedback van de opdachtgever je hebt gewerkt. Bedenk daarna hoe jullie dit gaan presenteren, en bedenk een volgorde van onderwerpen.
+Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Review voorbereiden. Ga met elkaar aan tafel zitten. 
+
+- Laat eerst aan elkaar zien wat je hebt gemaakt deze sprint en aan welke vragen of feedback van de opdachtgever je hebt gewerkt. Bedenk daarna hoe jullie dit gaan presenteren, en bedenk een volgorde van onderwerpen.
+
+- Bespreek met elkaar wat je hebt gedaan op het gebied van frontend performance, zoals responsive images, layout shift en/of perceived performance. 
+
+- Hoe ver ben je met client-side scripting om de user experience van je website te verbeteren? 
 
 ### Status bespreken met een docent
-We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog even wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
+We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
 
 
 
 ## Readme schrijven
-Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme laat je het eindresultaat zien en verantwoord je je ontwerpkeuzes...
-
-Tot slot zorg je ervoor dat je en goede reame hebt waarin je presenteert wat je hebt gemaakt en je ontwerpkeuzes en eigen ideeën begrijpelijk uitgelegd.
+Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteert wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën begrijpelijk uit.
 
 
 
