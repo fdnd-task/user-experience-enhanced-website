@@ -1,8 +1,5 @@
 # Enhanced Website
 
-## Wrap-Up sprint
-Laatste dingen afmaken, Sprint Review voorbereiden.
-
 ## Wrap-up
 In de wrap-up ga je de Sprint Review voorbereiden. Wat ga je aan de oprachtgever presenteren? Hoe ga je dat doen? En waar wil je feedback op van de opdrachtgever?
 
