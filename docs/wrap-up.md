@@ -39,8 +39,11 @@ We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien.
 
 
 
-## Readme schrijven
+### Readme schrijven
 Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteert wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën begrijpelijk uit.
 
+#### User experience
+Laat zien hoe je de user experience hebt verbeterd, hoe werkt de post interactie? Welke states hebt je toegevoegd? EN hoe ziet het eruit? Misschien kan je dit met ene filmpje laten zien. 
 
-
+#### Frontend performance
+Beschrijf kort wat er uit de Performance audit is gekomen en hoe je de frontend performance hebt verbeterd, bijvoorbeeld met responsive images, layout shift en/of perceived performance. 
