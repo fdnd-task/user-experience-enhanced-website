@@ -29,7 +29,7 @@ Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Rev
 
 - Bespreek met elkaar wat je hebt gedaan op het gebied van frontend performance, zoals responsive images, layout shift en/of perceived performance. 
 
-- Laat zien hoe ver je bent met client-side scripting om de user experience van je website te verbeteren. Bedenk hoe je dit goed kan presenteren en uitleggen aan de opdrachtgever. Misschien heb je nieuwe states ontworpen en gemaakt? Hoe ga je dit laten zien?
+- Laat zien hoe ver je bent met client-side scripting om de user experience van je website te verbeteren. Bedenk hoe je dit goed kan presenteren en uitleggen aan de opdrachtgever. Misschien heb je een Loading state en Success state ontworpen en gemaakt? Hoe ga je dit laten zien?
 
 ### Status bespreken met een docent
 We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
@@ -46,7 +46,7 @@ We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien.
 Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteer je wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën uit.
 
 #### User experience
-Laat zien hoe je de user experience hebt verbeterd, hoe werkt de post interactie? Welke states hebt je toegevoegd? En hoe ziet het eruit? Misschien kan je dit met een filmpje laten zien. 
+Laat zien hoe je de user experience hebt verbeterd, hoe werkt de post interactie? Welke Loading state en Success state hebt je toegevoegd? En hoe ziet het eruit? Misschien kan je dit met een filmpje laten zien. 
 
 #### Frontend performance
 Beschrijf kort wat er uit de Performance audit is gekomen en hoe je de frontend performance hebt verbeterd, bijvoorbeeld met responsive images, layout shift en/of perceived performance. 
