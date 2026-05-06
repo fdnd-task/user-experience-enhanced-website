@@ -95,7 +95,7 @@ In pseudo-code ziet dat er zo uit, hieronder staat een voorbeeld van een scoring
 
 👉 Heb je je ontwerp en code uitgelegd? En heb je anderen al geholpen met hun ontwerp? Pas de code aan naar jouw eigen project. Zorg dat je met client-side JS jouw formulier kunt versturen.
 
-
+#### HTML/Liquid:
 ```html
 <!-- Score form met action naar de route /score -->
 <form method="post" action="/score">
@@ -120,7 +120,7 @@ In pseudo-code ziet dat er zo uit, hieronder staat een voorbeeld van een scoring
 
 </form>
 
-<!-- Scoreverloop, met in de loop de partial score.liquid -->
+<!-- Scoreverloop, for-loop met dynamische data -->
 <section id="score">
     <h2>Scoreverloop</h2>
 
@@ -137,8 +137,9 @@ In pseudo-code ziet dat er zo uit, hieronder staat een voorbeeld van een scoring
 </section>
 ```
 
+#### Client-side javascript:
 ```javascript
-<!-- Client-Side script voor enhancement -->
+<!-- Client-side script voor enhancement -->
 <!-- type="module" is een feature detection
       browsers die dat ondersteunen, ondersteunen ook fetch (en andere js methoden) 
       https://snugug.com/musings/modern-cutting-the-mustard/
