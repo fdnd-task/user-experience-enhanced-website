@@ -9,7 +9,7 @@ Vandaag ga je leren hoe je je code kan opschonen en beter leesbaar maken. Daarna
 ## Code opschonen
 Nu we al een paar sprints met de server werken is het tijd om deze code eens op te schonen en beter leesbaar te maken. Een paar van onderstaande punten zijn waarschijnlijk al langs gekomen tijdens een practicum. 
 
-Doorloop met je tafel jullie  server code en probeer deze punten te verbeteren:
+👉 Doorloop met je tafel jullie  server code en probeer deze punten te verbeteren:
 
 - Een baseURL aanmaken voor het deel van de fetch url naar Directus endpoint dat steeds hetzefde is (DRY)
 - Leesbaardere naamgeving
@@ -32,7 +32,7 @@ Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Rev
 - Laat zien hoe ver je bent met client-side scripting om de user experience van je website te verbeteren. Bedenk hoe je dit goed kan presenteren en uitleggen aan de opdrachtgever. Misschien heb je een Loading state en Success state ontworpen en gemaakt? Hoe ga je dit laten zien?
 
 ### Status bespreken met een docent
-We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
+We gaan groepjes maken en bespreken wat je tijdens de sprint review aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
 
 
 |   | 11:00 | 11:30 | 12:00 | 
