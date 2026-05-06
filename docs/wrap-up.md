@@ -9,7 +9,7 @@ Vandaag ga je leren hoe je je code kan opschonen en beter leesbaar maken. Daarna
 ## Code opschonen
 Nu we al een paar sprints met de server werken is het tijd om deze code eens op te schonen en beter leesbaar te maken. Een paar van onderstaande punten zijn waarschijnlijk al langs gekomen tijdens een practicum. 
 
-Doorloop met je tafel jullie  server code een probeer deze punten te verbeteren:
+Doorloop met je tafel jullie  server code en probeer deze punten te verbeteren:
 
 - Een baseURL aanmaken voor het deel van de fetch url naar Directus endpoint dat steeds hetzefde is (DRY)
 - Leesbaardere naamgeving
@@ -29,7 +29,7 @@ Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Rev
 
 - Bespreek met elkaar wat je hebt gedaan op het gebied van frontend performance, zoals responsive images, layout shift en/of perceived performance. 
 
-- Hoe ver ben je met client-side scripting om de user experience van je website te verbeteren? 
+- Laat zien hoe ver je bent met client-side scripting om de user experience van je website te verbeteren. Bedenk hoe je dit goed kan presenteren en uitleggen aan de opdrachtgever. Misschien heb je nieuwe states ontworpen en gemaakt? Hoe ga je dit laten zien?
 
 ### Status bespreken met een docent
 We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
@@ -43,10 +43,10 @@ We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien.
 | Justus | 1 <br> 2 <br> 3 | 1 <br> 2 <br> 3  | 1 <br> 2 <br> 3  |
 
 ### Readme schrijven
-Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteert wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën begrijpelijk uit.
+Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteer je wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën uit.
 
 #### User experience
-Laat zien hoe je de user experience hebt verbeterd, hoe werkt de post interactie? Welke states hebt je toegevoegd? EN hoe ziet het eruit? Misschien kan je dit met ene filmpje laten zien. 
+Laat zien hoe je de user experience hebt verbeterd, hoe werkt de post interactie? Welke states hebt je toegevoegd? En hoe ziet het eruit? Misschien kan je dit met een filmpje laten zien. 
 
 #### Frontend performance
 Beschrijf kort wat er uit de Performance audit is gekomen en hoe je de frontend performance hebt verbeterd, bijvoorbeeld met responsive images, layout shift en/of perceived performance. 
