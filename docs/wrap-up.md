@@ -23,8 +23,6 @@ Advanced:
 - Een fetch helper function schrijven met error handling (DRY)
 - Routes opsplitsen in aparte bestanden om het server bestand lean and mean te houden (en wat meer richting componenten te denken)
 
-
-
 ## Sprint review voorbereiden en Readme schrijven
 Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Review voorbereiden. Ga met elkaar aan tafel zitten. 
 
@@ -38,6 +36,12 @@ Eerst ga je met je team met studenten die dezelfde opdracht hebben de Sprint Rev
 We gaan groepjes maken en bespreken wat je aan de opdrachtgever gaat laten zien. Door dit te bespreken met een docent kan je nog wat vragen stellen en kunnen wij je helpen met tips en tricks voor de laatste loodjes. 
 
 
+|   | 11:00 | 11:30 | 12:00 | 
+| --- | --- | --- | --- | 
+| Sanne | 1 <br> 2 <br> 3 | 1 <br> 2 <br> 3  | 1 <br> 2 <br> 3  |
+| Suus | 1 <br> 2 <br> 3 | 1 <br> 2 <br> 3  | 1 <br> 2 <br> 3  |
+| Joost | 1 <br> 2 <br> 3 | 1 <br> 2 <br> 3  | 1 <br> 2 <br> 3  |
+| Justus | 1 <br> 2 <br> 3 | 1 <br> 2 <br> 3  | 1 <br> 2 <br> 3  |
 
 ### Readme schrijven
 Schrijf daarna een nette Readme, waarin je laat zien wat je hebt gedaan. In de Readme presenteert wat je hebt gemaakt en leg je je ontwerpkeuzes en eigen ideeën begrijpelijk uit.
