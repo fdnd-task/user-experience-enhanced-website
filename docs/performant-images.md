@@ -110,7 +110,7 @@ We hebben nu voornamelijk gekeken naar dezelfde afbeelding serveren op verschill
 
 ### Bronnen
 
-- [Do we use adaptive media loading and client hints?- Frontend Performance Checklist #21]([https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#21](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#:~:text=Do%20we%20use%20adaptive%20media%20loading%20and%20client%20hints))
+- [Do we use adaptive media loading and client hints?- Frontend Performance Checklist #21](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/#:~:text=Do%20we%20use%20adaptive%20media%20loading%20and%20client%20hints)
 - [MDN: Using responsive images in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images)
 - [Responsive Images 101, Part 1: Definitions](https://cloudfour.com/thinks/responsive-images-101-definitions/)
 - [Responsive Images the Simple Way](https://cloudfour.com/thinks/responsive-images-the-simple-way/)
